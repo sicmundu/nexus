@@ -26,9 +26,9 @@ Before running the installation script, ensure that you have:
 To download the latest version of the script:
 
 ```bash
-curl -O https://raw.githubusercontent.com/BananaAlliance/guides/main/nexus/nexus-wizzard.sh
-chmod +x nexus-wizzard.sh
-./nexus-wizzard.sh
+curl -O https://github.com/sicmundu/nexus/raw/refs/heads/main/nexus.sh
+chmod +x nexus.sh
+./nexus.sh
 ```
 
 ### Step 2: Follow the Wizard

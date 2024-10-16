@@ -266,7 +266,7 @@ main_menu() {
 
 # Self-update function
 self_update() {
-    REPO_URL="https://raw.githubusercontent.com/BananaAlliance/guides/main/nexus/nexus-wizzard.sh"
+    REPO_URL="https://github.com/sicmundu/nexus/raw/refs/heads/main/nexus.sh"
 
     REMOTE_VERSION=$(curl -s $REPO_URL | grep -Eo 'SCRIPT_VERSION="[0-9]+\.[0-9]+\.[0-9]+"' | cut -d '"' -f 2)
 
